@@ -2,7 +2,7 @@
 
 pushd `pwd` > /dev/null
 
-LIVOX_SDK=src/external/lidar/livox/livox-SDK2
+LIVOX_SDK=src/external/lidar/livox/Livox-SDK2
 if [ -d $LIVOX_SDK ]; then
 	cd $LIVOX_SDK
 	mkdir build

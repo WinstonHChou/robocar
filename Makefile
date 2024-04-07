@@ -34,4 +34,5 @@ sick-driver:
 	
 .PHONY: livox-driver
 livox-driver:
+	source /opt/ros/foxy/setup.bash
 	./scripts/livox_driver.sh
